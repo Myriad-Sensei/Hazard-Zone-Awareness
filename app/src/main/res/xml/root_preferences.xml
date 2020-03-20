@@ -1,0 +1,22 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Personal Options">
+
+    </PreferenceCategory>
+    <EditTextPreference
+        android:icon="@mipmap/ic_userid"
+        android:key="user_id"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="Your unique User ID as instructed by your OH&amp;S advisers to enable beacon scanning"
+        android:title="User Name" />
+    <PreferenceCategory android:title="Device Preference">
+
+    </PreferenceCategory>
+    <SwitchPreference
+        android:defaultValue="true"
+        android:icon="@drawable/ic_beacon_on_foreground"
+        android:key="service_switch"
+        android:summary="Employees should leave this on so you are always aware of the hazards around you"
+        android:title="Always scan for beacons" />
+</PreferenceScreen>
